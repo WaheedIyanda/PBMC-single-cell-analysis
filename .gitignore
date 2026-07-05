@@ -1,0 +1,11 @@
+# Large data files (too big for GitHub)
+*.h5
+*.h5ad
+*.loom
+
+# Checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
