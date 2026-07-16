@@ -27,10 +27,11 @@ The core analysis is documented in `sc_analysis_Notebook_.ipynb` and currently i
 - [x] **Merging**: Concatenating samples into a unified `AnnData` object for batch analysis.
 - [x] **Quality Control (QC)**: Calculating and visualizing mitochondrial/ribosomal metrics.
 - [x] **Filtering**: Removing empty droplets, potential doublets, and low-quality/dead cells.
-- [ ] **Normalization & Scaling** *(Upcoming)*
-- [ ] **Dimensionality Reduction (PCA & UMAP)** *(Upcoming)*
-- [ ] **Clustering & Cell Type Annotation** *(Upcoming)*
-- [ ] **Differential Expression Analysis (Condition vs. Condition)** *(Upcoming)*
+- [x] **Normalization & Scaling**: Storing the log-normalized data in `.raw` and scaling.
+- [x] **Dimensionality Reduction (PCA)**: Running PCA and inspecting elbow plots.
+- [x] **Dimensionality Reduction (UMAP)**: Computing neighbor graphs and visualizing in 2D.
+- [x] **Clustering & Cell Type Annotation**: Clustering cells via Leiden and identifying marker genes.
+- [x] **Differential Expression Analysis (Condition vs. Condition)**: Evaluating gene changes between fresh, fixed, and stored conditions.
 
 ## 🚀 Getting Started
 To run this notebook locally or in Google Colab:
