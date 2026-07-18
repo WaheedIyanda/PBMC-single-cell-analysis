@@ -78,8 +78,6 @@ To run this notebook locally or in Google Colab:
 3. **Download Data:**
    You will need to acquire the corresponding `.h5` files and place them in your local directory (or mount them via Google Drive if using Colab) and update the `path` variable in the notebook.
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
 
 ## ⭐️ Show your support
 Give a ⭐️ if this project helped you!
